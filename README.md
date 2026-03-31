@@ -4,11 +4,11 @@ Microservicio FastAPI para procesamiento de documentos PDF.
 
 ## Responsabilidad
 
-- recibir PDF por carga de archivo
-- extraer y limpiar texto
-- generar resumen
-- inferir temas principales
-- devolver salida estructurada para consumo del gateway
+- Recibir PDF por carga de archivo.
+- Extraer y limpiar texto.
+- Generar resumen.
+- Inferir temas principales.
+- Devolver salida estructurada para consumo del gateway.
 
 ## Endpoint
 
@@ -54,5 +54,5 @@ pip install -r requirements-dev.txt
 pytest
 ```
 
-Cobertura configurada al 100%.
+Cobertura al 100%.
 
